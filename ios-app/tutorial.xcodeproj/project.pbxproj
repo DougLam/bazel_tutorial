@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9D19BA12C0F89300000000 /* UrlGetViewController.m in UrlGet */ = {isa = PBXBuildFile; fileRef = DFBA600012C0F89300000000 /* UrlGetViewController.m */; };
+		0F9D19BA12C0F89300000001 /* UrlGetViewController.m in UrlGet */ = {isa = PBXBuildFile; fileRef = DFBA600012C0F89300000000 /* UrlGetViewController.m */; };
+		0F9D19BAB6E97D4800000000 /* AppDelegate.m in UrlGet */ = {isa = PBXBuildFile; fileRef = DFBA6000B6E97D4800000000 /* AppDelegate.m */; };
+		0F9D19BAB6E97D4800000001 /* AppDelegate.m in UrlGet */ = {isa = PBXBuildFile; fileRef = DFBA6000B6E97D4800000000 /* AppDelegate.m */; };
+		0F9D19BAF4EC0C4B00000000 /* main.m in UrlGet */ = {isa = PBXBuildFile; fileRef = DFBA6000F4EC0C4B00000000 /* main.m */; };
+		0F9D19BAF4EC0C4B00000001 /* main.m in UrlGet */ = {isa = PBXBuildFile; fileRef = DFBA6000F4EC0C4B00000000 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446FE8122119986700000000 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 657D19107190D0DF00000000 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 710B32632119986600000000;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DFBA600012C0F89300000000 /* UrlGetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = UrlGetViewController.m; path = "ios-app/UrlGet/UrlGetViewController.m"; sourceTree = "<group>"; };
+		DFBA60001AE56CE400000000 /* UrlGetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UrlGetViewController.h; path = "ios-app/UrlGet/UrlGetViewController.h"; sourceTree = "<group>"; };
+		DFBA60003088282000000000 /* UrlGet-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = "UrlGet-Info.plist"; path = "ios-app/UrlGet/UrlGet-Info.plist"; sourceTree = "<group>"; };
+		DFBA60004380A19800000000 /* BUILD */ = {isa = PBXFileReference; lastKnownFileType = text; name = BUILD; path = "ios-app/BUILD"; sourceTree = "<group>"; };
+		DFBA60004C1C727A00000000 /* ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; name = "ios-app.app"; path = "ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA60008DE8979400000000 /* lib_idx_UrlGetClasses_4CF3340A_ios_min9.0.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = lib_idx_UrlGetClasses_4CF3340A_ios_min9.0.a; path = lib_idx_UrlGetClasses_4CF3340A_ios_min9.0.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA6000B6E97D4800000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "ios-app/UrlGet/AppDelegate.m"; sourceTree = "<group>"; };
+		DFBA6000D73179CF00000000 /* Info.plist */ = {isa = PBXFileReference; explicitFileType = text.plist; name = Info.plist; path = "tulsi-workspace/bazel-tulsi-includes/x/x/ios-app/ios-app-intermediates/Info.plist"; sourceTree = "<group>"; };
+		DFBA6000DCD6358900000000 /* UrlGetViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = UrlGetViewController.xib; path = "ios-app/UrlGet/UrlGetViewController.xib"; sourceTree = "<group>"; };
+		DFBA6000E032709800000000 /* lib_idx_UrlGetClasses_4CF3340A_ios_min13.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = lib_idx_UrlGetClasses_4CF3340A_ios_min13.1.a; path = lib_idx_UrlGetClasses_4CF3340A_ios_min13.1.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA6000E5B5200500000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "ios-app/UrlGet/AppDelegate.h"; sourceTree = "<group>"; };
+		DFBA6000EC56394400000000 /* libios-app-UrlGetClasses.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; name = "libios-app-UrlGetClasses.a"; path = "libios-app-UrlGetClasses.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFBA6000F4EC0C4B00000000 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "ios-app/UrlGet/main.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6B57728F188A490800000000 /* mainGroup */ = {
+			isa = PBXGroup;
+			children = (
+				6B57728F3BA714AB00000000 /* Products */,
+				6B57728FEB7407BF00000001 /* ios-app */,
+			);
+			name = mainGroup;
+			path = ..;
+			sourceTree = SOURCE_ROOT;
+		};
+		6B57728F1C016E7800000000 /* UrlGet */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA6000E5B5200500000000 /* AppDelegate.h */,
+				DFBA6000B6E97D4800000000 /* AppDelegate.m */,
+				DFBA60003088282000000000 /* UrlGet-Info.plist */,
+				DFBA60001AE56CE400000000 /* UrlGetViewController.h */,
+				DFBA600012C0F89300000000 /* UrlGetViewController.m */,
+				DFBA6000DCD6358900000000 /* UrlGetViewController.xib */,
+				DFBA6000F4EC0C4B00000000 /* main.m */,
+			);
+			name = UrlGet;
+			sourceTree = "<group>";
+		};
+		6B57728F3BA714AB00000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B57728FC994A81400000000 /* Indexer */,
+				6B57728FE3DA494100000000 /* bazel-tulsi-includes */,
+				DFBA60004C1C727A00000000 /* ios-app.app */,
+				DFBA6000EC56394400000000 /* libios-app-UrlGetClasses.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B57728FBF775C2A00000000 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				6B57728FBF775C2A00000001 /* x */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		6B57728FBF775C2A00000001 /* x */ = {
+			isa = PBXGroup;
+			children = (
+				6B57728FEB7407BF00000000 /* ios-app */,
+			);
+			name = x;
+			sourceTree = "<group>";
+		};
+		6B57728FC5EB161A00000000 /* ios-app-intermediates */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA6000D73179CF00000000 /* Info.plist */,
+			);
+			name = "ios-app-intermediates";
+			sourceTree = "<group>";
+		};
+		6B57728FC994A81400000000 /* Indexer */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA6000E032709800000000 /* lib_idx_UrlGetClasses_4CF3340A_ios_min13.1.a */,
+				DFBA60008DE8979400000000 /* lib_idx_UrlGetClasses_4CF3340A_ios_min9.0.a */,
+			);
+			name = Indexer;
+			sourceTree = "<group>";
+		};
+		6B57728FE3DA494100000000 /* bazel-tulsi-includes */ = {
+			isa = PBXGroup;
+			children = (
+				6B57728FBF775C2A00000000 /* x */,
+			);
+			name = "bazel-tulsi-includes";
+			sourceTree = "<group>";
+		};
+		6B57728FEB7407BF00000000 /* ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				6B57728FC5EB161A00000000 /* ios-app-intermediates */,
+			);
+			name = "ios-app";
+			sourceTree = "<group>";
+		};
+		6B57728FEB7407BF00000001 /* ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				DFBA60004380A19800000000 /* BUILD */,
+				6B57728F1C016E7800000000 /* UrlGet */,
+			);
+			name = "ios-app";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		710B32632119986600000000 /* _bazel_clean_ */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "\"/usr/local/bin/bazel\" \"bazel-bin\"";
+			buildConfigurationList = C738EE10D7F7BB8E00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */;
+			buildPhases = (
+			);
+			buildToolPath = "${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_clean.sh";
+			buildWorkingDirectory = "${SRCROOT}/..";
+			dependencies = (
+			);
+			name = _bazel_clean_;
+			passBuildSettingsInEnvironment = 1;
+			productName = _bazel_clean_;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		D911ACDA9D9EFCCA00000000 /* _idx_UrlGetClasses_4CF3340A_ios_min13.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C738EE10FC01AEAC00000000 /* Build configuration list for PBXNativeTarget "_idx_UrlGetClasses_4CF3340A_ios_min13.1" */;
+			buildPhases = (
+				EC45B7950000000000000000 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA3CDEA2119986700000000 /* PBXTargetDependency */,
+			);
+			name = _idx_UrlGetClasses_4CF3340A_ios_min13.1;
+			productName = _idx_UrlGetClasses_4CF3340A_ios_min13.1;
+			productReference = DFBA6000E032709800000000 /* lib_idx_UrlGetClasses_4CF3340A_ios_min13.1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D911ACDABAFD7C4200000000 /* _idx_UrlGetClasses_4CF3340A_ios_min9.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C738EE10954316A500000000 /* Build configuration list for PBXNativeTarget "_idx_UrlGetClasses_4CF3340A_ios_min9.0" */;
+			buildPhases = (
+				EC45B7950000000000000001 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA3CDEA2119986700000000 /* PBXTargetDependency */,
+			);
+			name = _idx_UrlGetClasses_4CF3340A_ios_min9.0;
+			productName = _idx_UrlGetClasses_4CF3340A_ios_min9.0;
+			productReference = DFBA60008DE8979400000000 /* lib_idx_UrlGetClasses_4CF3340A_ios_min9.0.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D911ACDAD6E80F7E00000000 /* ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C738EE1052C336B000000000 /* Build configuration list for PBXNativeTarget "ios-app" */;
+			buildPhases = (
+				2416427EE127CE4000000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA3CDEA2119986700000000 /* PBXTargetDependency */,
+			);
+			name = "ios-app";
+			productName = "ios-app";
+			productReference = DFBA60004C1C727A00000000 /* ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D911ACDAF7B15A5A00000000 /* ios-app-UrlGetClasses */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C738EE107DDFA9DA00000000 /* Build configuration list for PBXNativeTarget "ios-app-UrlGetClasses" */;
+			buildPhases = (
+				2416427EABB7253200000000 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA3CDEA2119986700000000 /* PBXTargetDependency */,
+			);
+			name = "ios-app-UrlGetClasses";
+			productName = "ios-app-UrlGetClasses";
+			productReference = DFBA6000EC56394400000000 /* libios-app-UrlGetClasses.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657D19107190D0DF00000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = C738EE109B09CD3400000000 /* Build configuration list for PBXProject "tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6B57728F188A490800000000 /* mainGroup */;
+			targets = (
+				710B32632119986600000000 /* _bazel_clean_ */,
+				D911ACDA9D9EFCCA00000000 /* _idx_UrlGetClasses_4CF3340A_ios_min13.1 */,
+				D911ACDABAFD7C4200000000 /* _idx_UrlGetClasses_4CF3340A_ios_min9.0 */,
+				D911ACDAD6E80F7E00000000 /* ios-app */,
+				D911ACDAF7B15A5A00000000 /* ios-app-UrlGetClasses */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2416427EABB7253200000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios-app:UrlGetClasses --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+		2416427EE127CE4000000000 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(INFOPLIST_PATH)",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "set -e\ncd \"${SRCROOT}/..\"\nexec \"${PROJECT_FILE_PATH}/.tulsi/Scripts/bazel_build.py\" //ios-app:ios-app --bazel \"/usr/local/bin/bazel\" --bazel_bin_path \"bazel-bin\" --verbose ";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC45B7950000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				0F9D19BAB6E97D4800000000 /* AppDelegate.m in UrlGet */,
+				0F9D19BA12C0F89300000000 /* UrlGetViewController.m in UrlGet */,
+				0F9D19BAF4EC0C4B00000000 /* main.m in UrlGet */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC45B7950000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				0F9D19BAB6E97D4800000001 /* AppDelegate.m in UrlGet */,
+				0F9D19BA12C0F89300000001 /* UrlGetViewController.m in UrlGet */,
+				0F9D19BAF4EC0C4B00000001 /* main.m in UrlGet */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADA3CDEA2119986700000000 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			targetProxy = 446FE8122119986700000000 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E59650530843D6A300000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_BWRS)/bazel-tulsi-includes/x/x";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = tutorial;
+				TULSI_VERSION = 0.20191009.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = Release;
+		};
+		E59650530843D6A300000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ ";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_UrlGetClasses_4CF3340A_ios_min13.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		E59650530843D6A300000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ ";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_UrlGetClasses_4CF3340A_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Release;
+		};
+		E59650530843D6A300000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Google.UrlGet;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = Release;
+		};
+		E59650530843D6A300000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:UrlGetClasses";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "ios-app-UrlGetClasses";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = Release;
+		};
+		E59650532D5440E100000000 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = tutorial;
+				TULSI_VERSION = 0.20191009.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		E59650532D5440E100000001 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = Google.UrlGet;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		E59650532D5440E100000002 /* __TulsiTestRunner_Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:UrlGetClasses";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "NDEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "ios-app-UrlGetClasses";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = __TulsiTestRunner_Release;
+		};
+		E59650534F4544B300000000 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PLATFORM_DIR)/Developer/Library/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(TULSI_BWRS) $(TULSI_WR)/bazel-bin $(TULSI_WR)/bazel-genfiles $(TULSI_BWRS)/bazel-tulsi-includes/x/x";
+				ONLY_ACTIVE_ARCH = YES;
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = tutorial;
+				TULSI_VERSION = 0.20191009.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = Debug;
+		};
+		E59650534F4544B300000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ ";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_UrlGetClasses_4CF3340A_ios_min13.1;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		E59650534F4544B300000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "$(inherited) $(TULSI_WR)/bazel-tulsi-includes/x/x/ $(TULSI_BWRS)/bazel-tulsi-includes/x/x/ ";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_CFLAGS = "-D_FORTIFY_SOURCE=1 -D__DATE__=\"redacted\" -D__TIMESTAMP__=\"redacted\" -D__TIME__=\"redacted\"";
+				PRODUCT_NAME = _idx_UrlGetClasses_4CF3340A_ios_min9.0;
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "$(TULSI_WR)";
+			};
+			name = Debug;
+		};
+		E59650534F4544B300000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Google.UrlGet;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = Debug;
+		};
+		E59650534F4544B300000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:UrlGetClasses";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = "ios-app-UrlGetClasses";
+				SDKROOT = iphoneos;
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = Debug;
+		};
+		E5965053650C566C00000000 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGN_IDENTITY = "";
+				DONT_RUN_SWIFT_STDLIB_TOOL = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PYTHONIOENCODING = utf8;
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BWRS = "$(PROJECT_FILE_PATH)/.tulsi/tulsi-workspace";
+				TULSI_PROJECT = tutorial;
+				TULSI_VERSION = 0.20191009.88;
+				TULSI_WR = "${SRCROOT}/..";
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		E5965053650C566C00000001 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:ios-app";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_BUNDLE_IDENTIFIER = Google.UrlGet;
+				PRODUCT_NAME = "ios-app";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+		E5965053650C566C00000002 /* __TulsiTestRunner_Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Stub Launch Image";
+				BAZEL_TARGET = "//ios-app:UrlGetClasses";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = "DEBUG=1";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "${PROJECT_FILE_PATH}/.tulsi/Resources/StubInfoPlist.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "--version";
+				OTHER_LDFLAGS = "--version";
+				OTHER_SWIFT_FLAGS = "--version";
+				PRODUCT_NAME = "ios-app-UrlGetClasses";
+				SDKROOT = iphoneos;
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(PRODUCT_NAME).h";
+				TULSI_BUILD_PATH = "ios-app";
+				TULSI_XCODE_VERSION = 11.1.0.11A1027;
+			};
+			name = __TulsiTestRunner_Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C738EE1052C336B000000000 /* Build configuration list for PBXNativeTarget "ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59650534F4544B300000003 /* Debug */,
+				E59650530843D6A300000003 /* Release */,
+				E5965053650C566C00000001 /* __TulsiTestRunner_Debug */,
+				E59650532D5440E100000001 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C738EE107DDFA9DA00000000 /* Build configuration list for PBXNativeTarget "ios-app-UrlGetClasses" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59650534F4544B300000004 /* Debug */,
+				E59650530843D6A300000004 /* Release */,
+				E5965053650C566C00000002 /* __TulsiTestRunner_Debug */,
+				E59650532D5440E100000002 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C738EE10954316A500000000 /* Build configuration list for PBXNativeTarget "_idx_UrlGetClasses_4CF3340A_ios_min9.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59650534F4544B300000002 /* Debug */,
+				E59650530843D6A300000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C738EE109B09CD3400000000 /* Build configuration list for PBXProject "tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59650534F4544B300000000 /* Debug */,
+				E59650530843D6A300000000 /* Release */,
+				E5965053650C566C00000000 /* __TulsiTestRunner_Debug */,
+				E59650532D5440E100000000 /* __TulsiTestRunner_Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C738EE10D7F7BB8E00000000 /* Build configuration list for PBXLegacyTarget "_bazel_clean_" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C738EE10FC01AEAC00000000 /* Build configuration list for PBXNativeTarget "_idx_UrlGetClasses_4CF3340A_ios_min13.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E59650534F4544B300000001 /* Debug */,
+				E59650530843D6A300000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657D19107190D0DF00000000 /* Project object */;
+}

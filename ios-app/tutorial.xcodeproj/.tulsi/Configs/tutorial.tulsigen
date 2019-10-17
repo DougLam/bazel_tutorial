@@ -1,0 +1,17 @@
+{
+  "additionalFilePaths" : [
+    "ios-app/BUILD"
+  ],
+  "buildTargets" : [
+    "//ios-app:UrlGetClasses",
+    "//ios-app:ios-app"
+  ],
+  "optionSet" : {
+
+  },
+  "projectName" : "tutorial",
+  "sourceFilters" : [
+    "ios-app/...",
+    "ios-app/UrlGet"
+  ]
+}
